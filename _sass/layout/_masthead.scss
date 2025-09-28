@@ -55,7 +55,14 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+
+  a {
+    color: white;
+    font-weight: bold;
+  }
   display: block;
   list-style-type: none;
   white-space: nowrap;
