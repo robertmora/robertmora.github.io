@@ -13,7 +13,7 @@ I earned my PhD in Networking Technology from Aalto University (Finland) in 2019
 
 My research lies at the intersection of Networked Systems, Edge Computing, and Distributed AI, focusing on trade-offs in AI service provisioning, interoperability, and lifecycle management under computing- and networking-resource constraints.
 
-Some time ago, I shared more about my background and career path in an interview on the EURECOM Medium blog — you can read it [here[(https://eurecom-blog.medium.com/meet-our-faculty-roberto-morabito-assistant-professor-in-the-communication-systems-department-at-7af141c2cfa2
+Some time ago, I shared more about my background and career path in an interview on the EURECOM Medium blog — you can read it [here](https://eurecom-blog.medium.com/meet-our-faculty-roberto-morabito-assistant-professor-in-the-communication-systems-department-at-7af141c2cfa2
 ). 
 
 A data-driven personal website
