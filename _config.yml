@@ -29,7 +29,7 @@ author:
   bio              : "Assistant Professor @ EURECOM – Docent @ University of Helsinki"
   location         : "Biot, France"
   employer         : "Grande école EURECOM"
-  uri              : "https://www.eurecom.fr/en"
+  uri              : #"https://www.eurecom.fr/en"
   email            : "roberto.morabito[at]eurecom.fr" 
 
   # Academic websites
