@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: darkblue;
   height: fit-content;
   top: 0;
   width: 100%;
@@ -63,20 +63,5 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-  }
-}
-
-.masthead {
-  background-color: darkblue;  // dark blue background
-  color: white;                // default text color inside masthead
-
-  &__inner-wrap {
-    font-weight: bold;         // make text bold
-    color: white;              // ensure inner text is white
-  }
-
-  a {
-    color: white;              // make all links white
-    font-weight: bold;         // make links bold
   }
 }
