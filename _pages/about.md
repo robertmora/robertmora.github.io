@@ -1,15 +1,20 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I’m an Assistant Professor in the Communication Systems Department at [EURECOM](https://www.eurecom.fr/en), a Grande École, research center, and graduate school located in the beautiful south of France. I’m also a [Docent](https://www.helsinki.fi/en/about-us/people/researchers-and-teachers/docents) at the University of Helsinki, Finland. Before joining EURECOM, I was a Senior Researcher in the Department of Computer Science at the University of Helsinki. Earlier in my career (2014–2022), I spent eight years at Ericsson Research Finland, first with the Cloud and System Platforms team and later with the IoT Technologies & Cyber-Physical Systems team.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I earned my PhD in Networking Technology from Aalto University (Finland) in 2019, where I was also a Marie Skłodowska-Curie research fellow in the FP7 ITN project METRICS (2014–2018). From 2019 to 2021, I worked as a Postdoctoral Researcher at the EDGE Lab, School of Electrical and Computer Engineering, Princeton University (USA).
+
+My research lies at the intersection of Networked Systems, Edge Computing, and Distributed AI, focusing on trade-offs in AI service provisioning, interoperability, and lifecycle management under computing- and networking-resource constraints.
+
+Some time ago, I shared more about my background and career path in an interview on the EURECOM Medium blog — you can read it [here[(https://eurecom-blog.medium.com/meet-our-faculty-roberto-morabito-assistant-professor-in-the-communication-systems-department-at-7af141c2cfa2
+). 
 
 A data-driven personal website
 ======
