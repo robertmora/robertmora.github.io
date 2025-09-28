@@ -55,13 +55,12 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
 
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+  a {
+    color: white;
+    font-weight: bold;
   }
 }
