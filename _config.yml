@@ -29,7 +29,7 @@ author:
   bio              : "Assistant Professor @ EURECOM – Docent @ University of Helsinki"
   location         : "Biot, France"
   employer         : "Grande école EURECOM"
-  uri              : # URL
+  uri              : "https://www.eurecom.fr/en"
   email            : "roberto.morabito[at]eurecom.fr" 
 
   # Academic websites
@@ -40,7 +40,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-4240-9934"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
