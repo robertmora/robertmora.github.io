@@ -181,7 +181,7 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: white;
+    color: var(--global-masthead-link-color);
     text-decoration: none;
 
     &:hover {
@@ -197,8 +197,7 @@
     border: 0;
     outline: none;
     background-color: var(--global-base-color);
-    background-color: darkblue;
-    color: #fff;
+    color: darkblue;
     cursor: pointer;
     z-index: 100;
   }
