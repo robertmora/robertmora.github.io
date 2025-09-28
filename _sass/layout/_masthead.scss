@@ -55,12 +55,28 @@
 }
 
 .masthead__menu-item {
-  background-color: darkblue;
-  color: white;
-  font-weight: bold;
+  background-color: var(--global-bg-color);
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+  }
+}
+
+.masthead {
+  background-color: darkblue;  // dark blue background
+  color: white;                // default text color inside masthead
+
+  &__inner-wrap {
+    font-weight: bold;         // make text bold
+    color: white;              // ensure inner text is white
+  }
 
   a {
-    color: white;
-    font-weight: bold;
+    color: white;              // make all links white
+    font-weight: bold;         // make links bold
   }
 }
