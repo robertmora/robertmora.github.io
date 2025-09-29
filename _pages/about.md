@@ -20,6 +20,7 @@ Some time ago, I shared more about my background and career path in an interview
 
 News
 ======
+- [Service](){:.tag .tag--service} Invited to serve on the Senior Program Committee (Systems and Infrastructure for Web, Mobile, and Web of Things track) at The ACM Web Conference.
 - [Talk](){:.tag .tag--talk} Invited talk at …
 - [Publication](){:.tag .tag--pub} Paper accepted at …
 
