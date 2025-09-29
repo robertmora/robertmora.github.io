@@ -18,10 +18,8 @@ Some time ago, I shared more about my background and career path in an interview
 
 News
 ======
-[Talk]{:.tag .tag--talk} Invited talk at XYZ Workshop.
-[Publication]{:.tag .tag--pub} Paper on ABC accepted at IEEE INFOCOM 2026.
-[Award]{:.tag .tag--award} Best Paper Award at DEF Conference.
-[Service]{:.tag .tag--service} Served as TPC member of GHI.
+- [Talk](){:.tag .tag--talk} Invited talk at …
+- [Publication](){:.tag .tag--pub} Paper accepted at …
 
 A data-driven personal website
 ======
