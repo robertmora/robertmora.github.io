@@ -20,8 +20,8 @@ Some time ago, I shared more about my background and career path in an interview
 
 News
 ======
-- [Service](){:.tag .tag--service} Invited to serve on the Senior Program Committee (Systems and Infrastructure for Web, Mobile, and Web of Things track) at The ACM Web Conference.
+- [Service](){:.tag .tag--service} Invited to serve on the Senior Program Committee (Systems and Infrastructure for Web, Mobile, and Web of Things track) at [The ACM Web Conference](https://www2025.thewebconf.org/).
 - [Talk](){:.tag .tag--talk} Invited talk at …
 - [Publication](){:.tag .tag--pub} Paper accepted at …
-- [Service](){:.tag .tag--service} Invited to serve on the TPC of IEEE INFOCOM '26.
+- [Service](){:.tag .tag--service} Invited to serve on the Technical Program Committee of [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/committees).
 
