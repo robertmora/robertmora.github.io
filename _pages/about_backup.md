@@ -3,8 +3,8 @@ permalink: /
 title: "About Me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /about_b/
+  - /about_backup.html
 ---
 
 I’m an Assistant Professor in the Communication Systems Department at [EURECOM](https://www.eurecom.fr/en), a [*Grande École*](https://en.wikipedia.org/wiki/Grande_%C3%A9cole), research center, and graduate school located in the beautiful [*French Riviera (Côte d'Azur)*](https://en.wikipedia.org/wiki/French_Riviera). I’m also a [Docent](https://www.helsinki.fi/en/about-us/people/researchers-and-teachers/docents) at the University of Helsinki, Finland. Before joining EURECOM, I was a Senior Researcher in the Department of Computer Science at the University of Helsinki. Earlier in my career (2014–2022), I spent eight years at Ericsson Research Finland, first with the Cloud and System Platforms team and later with the IoT Technologies & Cyber-Physical Systems team.
