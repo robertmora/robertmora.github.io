@@ -400,8 +400,9 @@
   text-transform: uppercase;
 }
 
-/* ====== Tag Pills for News section ====== */
-.tag {
+/* Tag pills */
+.page__content a.tag,
+.page__content span.tag {
   display: inline-block;
   padding: 0.12em 0.45em;
   margin-right: 0.25em;
@@ -411,12 +412,13 @@
   line-height: 1.4;
   border: 1px solid transparent;
   white-space: nowrap;
+  text-decoration: none; /* remove underline on links */
 }
 
-/* --- Color variants --- */
-.tag--talk       { background:#e8f0ff; color:#0b3d91; border-color:#c9dcff; }
-.tag--pub        { background:#fff1e8; color:#a84300; border-color:#ffd9c7; }
-.tag--award      { background:#edfbe6; color:#2e7d32; border-color:#c8efb9; }
-.tag--service    { background:#f3e8ff; color:#6b21a8; border-color:#e1cfff; }
-.tag--teaching   { background:#e9f7f7; color:#0f766e; border-color:#c6ecea; }
-.tag--default    { background:#eef2f7; color:#334155; border-color:#d7dee8; }
+/* Variants */
+.page__content .tag--talk     { background:#e8f0ff; color:#0b3d91; border-color:#c9dcff; }
+.page__content .tag--pub      { background:#fff1e8; color:#a84300; border-color:#ffd9c7; }
+.page__content .tag--award    { background:#edfbe6; color:#2e7d32; border-color:#c8efb9; }
+.page__content .tag--service  { background:#f3e8ff; color:#6b21a8; border-color:#e1cfff; }
+.page__content .tag--teaching { background:#e9f7f7; color:#0f766e; border-color:#c6ecea; }
+.page__content .tag--default  { background:#eef2f7; color:#334155; border-color:#d7dee8; }
