@@ -399,3 +399,24 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* ====== Tag Pills for News section ====== */
+.tag {
+  display: inline-block;
+  padding: 0.12em 0.45em;
+  margin-right: 0.25em;
+  border-radius: 6px;
+  font-size: 0.82em;
+  font-weight: 700;
+  line-height: 1.4;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+/* --- Color variants --- */
+.tag--talk       { background:#e8f0ff; color:#0b3d91; border-color:#c9dcff; }
+.tag--pub        { background:#fff1e8; color:#a84300; border-color:#ffd9c7; }
+.tag--award      { background:#edfbe6; color:#2e7d32; border-color:#c8efb9; }
+.tag--service    { background:#f3e8ff; color:#6b21a8; border-color:#e1cfff; }
+.tag--teaching   { background:#e9f7f7; color:#0f766e; border-color:#c6ecea; }
+.tag--default    { background:#eef2f7; color:#334155; border-color:#d7dee8; }
