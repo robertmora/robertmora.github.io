@@ -20,8 +20,10 @@ Some time ago, I shared more about my background and career path in an interview
 
 News
 ======
+- [Event](){:.tag .tag--event} [Talk](){:.tag .tag--talk} Serving as organizer and speaker at the 2025 [Training School on Networks & AI](https://n-ai-twork.sciencesconf.org/) (October 20–24, CNAM, Paris). Please consider to  join the school! Registration is ongoing (deadline is October 10th)
 - [Service](){:.tag .tag--service} Invited to serve on the Senior Program Committee (Systems and Infrastructure for Web, Mobile, and Web of Things track) at [The ACM Web Conference](https://www2025.thewebconf.org/).
-- [Talk](){:.tag .tag--talk} Invited talk at …
-- [Publication](){:.tag .tag--pub} Paper accepted at …
+- [Publication](){:.tag .tag--pub} Our paper "When the Code Autopilot Breaks: Why LLMs Falter in Embedded Machine Learning" has been accepted for publication in IEEE Computer. Preprint available [here](https://arxiv.org/pdf/2509.10946?)!
+- [Talk](){:.tag .tag--talk} Invited speaker at the [MSCA ITN EXACT-6G Doctoral School](https://www.exact6g.eu/news/exact-6g-msca-doctoral-network-successful-completion-of-schools-4-5/) (September 9th, 2025). Talk: "Edge AI in the 6G Era: From Embedded Intelligence to Generative Models at the Edge".
+- [Talk](){:.tag .tag--talk} Invited speaker at the [Summer School on Edge Artificial Intelligence](http://nordic-edge.org/elementor-page-1998/), KTH Royal Institute of Technology, Stockholm, Sweden (September 3rd, 2025). Talk: "From Edge to Tiny: Reimagining AI in the Era of Generative and Embedded Intelligence".
 - [Service](){:.tag .tag--service} Invited to serve on the Technical Program Committee of [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/committees).
 
