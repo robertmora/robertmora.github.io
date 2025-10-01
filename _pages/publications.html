@@ -51,6 +51,18 @@ author_profile: true
   background: #f8fafc;       /* default background */
   transition: background .2s ease;
 }
+/* Active tab when its radio is checked */
+#tab-journals:checked ~ .tab-labels label[for="tab-journals"],
+#tab-confs:checked   ~ .tab-labels label[for="tab-confs"],
+#tab-patents:checked ~ .tab-labels label[for="tab-patents"],
+#tab-books:checked   ~ .tab-labels label[for="tab-books"],
+#tab-theses:checked  ~ .tab-labels label[for="tab-theses"],
+#tab-preprints:checked ~ .tab-labels label[for="tab-preprints"] {
+  background: #ffeaea;   /* light red */
+  border-color: #e5b3b3;
+  color: #b42318;
+}
+  
 /* Hover */
 .pub-tabs .tab-labels label:hover {
   background:red;
