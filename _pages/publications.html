@@ -40,6 +40,7 @@ author_profile: true
   border-bottom: 1px solid #e5e7eb;
   margin-bottom: 1rem;
 }
+/* All tabs (default style) */
 .pub-tabs .tab-labels label {
   padding: .5rem .9rem;
   border: 1px solid #e5e7eb;
@@ -47,17 +48,20 @@ author_profile: true
   border-radius: .5rem .5rem 0 0;
   cursor: pointer;
   font-weight: 600;
-  background: #f8fafc;
+  background: #f8fafc;       /* default background */
   transition: background .2s ease;
 }
-.pub-tabs input:checked + label {
-  background: #ffeaea;       /* light red background */
-  border-color: #e5b3b3;
-  box-shadow: 0 -2px 0 0 #0b3d91 inset; /* underline effect */
-}
+/* Hover */
 .pub-tabs .tab-labels label:hover {
   background:#f1f1f1;
 }
+/* Active (checked) tab — light red */
+.pub-tabs input:checked + label {
+  background: #ffeaea;       /* light red background */
+  border-color: #e5b3b3;
+  color: #b42318;            /* optional: darker red text */
+}
+  
 /* tab panels */
 .pub-tabs .tab-panel { display: none; }
 #tab-journals:checked ~ .panels #panel-journals,
