@@ -5,32 +5,132 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<!-- ===== Publications: Recent + Tabs (CSS-only) ===== -->
 
-{% include base_path %}
+<!-- Recent -->
+<h2 id="recent">Recent (last 10)</h2>
+<ol reversed>
+  <li>[2025] Title of Paper A — <em>IEEE ICDCS</em></li>
+  <li>[2025] Title of Paper B — <em>ArXiv preprint</em></li>
+  <li>[2024] Title of Paper C — <em>IEEE TMC</em></li>
+  <!-- …up to 10 … -->
+</ol>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<hr/>
 
+<!-- Tabs -->
+<style>
+/* container */
+.pub-tabs { margin: 1.25rem 0; }
+
+/* hide the radios */
+.pub-tabs input[type="radio"] { position: absolute; opacity: 0; }
+
+/* tab labels */
+.pub-tabs .tab-labels {
+  display: flex; flex-wrap: wrap; gap: .5rem;
+  border-bottom: 1px solid #e5e7eb; margin-bottom: 1rem;
+}
+.pub-tabs .tab-labels label {
+  padding: .5rem .9rem; border: 1px solid #e5e7eb; border-bottom: none;
+  border-radius: .5rem .5rem 0 0; cursor: pointer; font-weight: 600;
+  background: #f8fafc;
+}
+.pub-tabs input:checked + label {
+  background: white;
+  box-shadow: 0 -2px 0 0 #0b3d91 inset;   /* active underline */
+}
+
+/* tab panels */
+.pub-tabs .tab-panel { display: none; }
+#tab-journals:checked ~ .panels #panel-journals,
+#tab-confs:checked    ~ .panels #panel-confs,
+#tab-patents:checked  ~ .panels #panel-patents,
+#tab-books:checked    ~ .panels #panel-books,
+#tab-theses:checked   ~ .panels #panel-theses,
+#tab-preprints:checked~ .panels #panel-preprints { display: block; }
+
+/* optional collapsible years */
+.pub-year details { margin: .25rem 0 .5rem 0; }
+.pub-year summary {
+  cursor: pointer; padding: .35rem .6rem; font-weight: 600;
+  background: #eef2f7; border: 1px solid #d7dee8; border-radius: .5rem;
+}
+.pub-item { margin-left: 1.2rem; padding: .25rem 0; }
+.pub-venue { font-style: italic; }
+.pub-badges .badge { 
+  display: inline-block; padding: .1rem .4rem; margin-left: .35rem;
+  border-radius: .4rem; font-size: .8em; border: 1px solid #d7dee8; 
+}
+</style>
+
+<div class="pub-tabs">
+
+  <!-- radios -->
+  <input checked id="tab-journals"  name="pubtabs" type="radio">
+  <label class="tab" for="tab-journals">Journals</label>
+
+  <input id="tab-confs"   name="pubtabs" type="radio">
+  <label class="tab" for="tab-confs">Conferences</label>
+
+  <input id="tab-patents" name="pubtabs" type="radio">
+  <label class="tab" for="tab-patents">Patents</label>
+
+  <input id="tab-books"   name="pubtabs" type="radio">
+  <label class="tab" for="tab-books">Books/Chapters</label>
+
+  <input id="tab-theses"  name="pubtabs" type="radio">
+  <label class="tab" for="tab-theses">Theses</label>
+
+  <input id="tab-preprints" name="pubtabs" type="radio">
+  <label class="tab" for="tab-preprints">Preprints</label>
+
+  <!-- labels row -->
+  <div class="tab-labels" aria-hidden="true"></div>
+
+  <!-- panels -->
+  <div class="panels">
+
+    <section class="tab-panel" id="panel-journals" aria-labelledby="tab-journals">
+      <div class="pub-year">
+        <details open>
+          <summary>2025</summary>
+          <div class="pub-item">
+            R. Morabito, … “Paper Title,” <span class="pub-venue">IEEE TMC</span>, 2025
+            <span class="pub-badges">
+              <span class="badge">Open Access</span>
+              <span class="badge">PDF</span>
+              <span class="badge">BibTeX</span>
+            </span>
+          </div>
+          <!-- more items -->
+        </details>
+        <details>
+          <summary>2024</summary>
+          <div class="pub-item">…</div>
+        </details>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="panel-confs" aria-labelledby="tab-confs">
+      <div class="pub-year">
+        <details open>
+          <summary>2025</summary>
+          <div class="pub-item">
+            … “When the Code Autopilot Breaks…,” <span class="pub-venue">IEEE ICDCS</span>, 2025
+            <span class="pub-badges"><span class="badge">Best Student Paper</span></span>
+          </div>
+        </details>
+        <details><summary>2024</summary><div class="pub-item">…</div></details>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="panel-patents"><div class="pub-year"><details open><summary>All</summary><div class="pub-item">…</div></details></div></section>
+    <section class="tab-panel" id="panel-books"><div class="pub-year"><details open><summary>All</summary><div class="pub-item">…</div></details></div></section>
+    <section class="tab-panel" id="panel-theses"><div class="pub-year"><details open><summary>All</summary><div class="pub-item">…</div></details></div></section>
+    <section class="tab-panel" id="panel-preprints"><div class="pub-year"><details open><summary>All</summary><div class="pub-item">…</div></details></div></section>
+
+  </div>
+</div>
 
 
