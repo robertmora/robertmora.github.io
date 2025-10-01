@@ -35,19 +35,28 @@ author_profile: true
 
 /* tab labels */
 .pub-tabs .tab-labels {
-  display: flex; flex-wrap: wrap; gap: .5rem;
-  border-bottom: 1px solid #e5e7eb; margin-bottom: 1rem;
+  display: flex;              /* align horizontally */
+  gap: .5rem;                 /* space between items */
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1rem;
 }
 .pub-tabs .tab-labels label {
-  padding: .5rem .9rem; border: 1px solid #e5e7eb; border-bottom: none;
-  border-radius: .5rem .5rem 0 0; cursor: pointer; font-weight: 600;
+  padding: .5rem .9rem;
+  border: 1px solid #e5e7eb;
+  border-bottom: none;
+  border-radius: .5rem .5rem 0 0;
+  cursor: pointer;
+  font-weight: 600;
   background: #f8fafc;
+  transition: background .2s ease;
 }
 .pub-tabs input:checked + label {
   background: white;
-  box-shadow: 0 -2px 0 0 #0b3d91 inset;   /* active underline */
+  box-shadow: 0 -2px 0 0 #0b3d91 inset; /* underline effect */
 }
-
+.pub-tabs .tab-labels label:hover {
+  background:#eef2f7;
+}
 /* tab panels */
 .pub-tabs .tab-panel { display: none; }
 #tab-journals:checked ~ .panels #panel-journals,
