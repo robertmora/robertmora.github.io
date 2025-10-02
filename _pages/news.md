@@ -1,10 +1,8 @@
 ---
+layout: archive
 permalink: /news/
 title: "News"
 author_profile: true
-redirect_from: 
-  - /news/
-  - /news.html
 ---
 
 - [Event](){:.tag .tag--event} [Talk](){:.tag .tag--talk} Serving as organizer and speaker at the 2025 [Training School on Networks & AI](https://n-ai-twork.sciencesconf.org/){:target="_blank"} (October 20–24, CNAM, Paris). Registration is open until October 10 — consider joining!
