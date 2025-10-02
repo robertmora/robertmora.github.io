@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=R21oWZsAAAAJ&citpid=10"
+  avatar           : "/images/mypic.jpg"
   name             : "Roberto Morabito"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor @ EURECOM | Docent @ University of Helsinki"
