@@ -13,6 +13,8 @@ I’m an Assistant Professor in the Communication Systems Department at [EURECOM
 
 I earned my PhD in Networking Technology from Aalto University (Finland) in 2019, where I was supervised by Prof. [Jörg Ott](https://www.professoren.tum.de/en/ott-joerg){:target="_blank"} and was also a Marie Skłodowska-Curie research fellow in the FP7 ITN project METRICS (2014–2018). From 2019 to 2021, I worked as a Postdoctoral Researcher at the EDGE Lab, School of Electrical and Computer Engineering, Princeton University (USA), under the supervision of Prof. [Mung Chiang](https://www.purdue.edu/president/about/mung-chiang/){:target="_blank"}.
 
+Over the years, I have also held visiting research positions at INRIA Lille (France), the Technical University of Munich (Germany), Aalto University (Finland), and Yale University (USA).
+
 My research lies at the intersection of Networked Systems, Edge Computing, and Distributed AI, focusing on trade-offs in AI service provisioning, interoperability, and lifecycle management under computing- and networking-resource constraints.
 
 Some time ago, I shared more about my background and career path in an interview on the EURECOM Medium blog — you can read it [here](https://eurecom-blog.medium.com/meet-our-faculty-roberto-morabito-assistant-professor-in-the-communication-systems-department-at-7af141c2cfa2){:target="_blank"}. 
