@@ -31,4 +31,4 @@ News
 - [Service](){:.tag .tag--service} **[July '25]** Invited to serve on the Technical Program Committee of [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/committees){:target="_blank"}.
 - [Award](){:.tag .tag--award} **[July '25]** We were awarded the Best Student Paper Award at the 45th IEEE International Conference on Distributed Computing Systems (ICDCS 2025). Congratulations to Yasith! (University of Helsinki [press release](https://www.helsinki.fi/en/faculty-science/news/best-student-paper-award-international-conference-distributed-computing-systems){:target="_blank"})
 - [Service](){:.tag .tag--service} **[June '25]** Serving as Poster and Demo Chair of [ACM/IEEE Symposium on Edge Computing](https://acm-ieee-sec.org/2025/postersession.php){:target="_blank"}.
-- **Older news [here](https://robertmora.github.io/news/){:target="_blank"}**
+- **All news [here](https://robertmora.github.io/news/){:target="_blank"}**
