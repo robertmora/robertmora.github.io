@@ -29,5 +29,4 @@ News
 - [Talk](){:.tag .tag--talk} **[September '25]** Invited speaker at the [MSCA ITN EXACT-6G Doctoral School](https://www.exact6g.eu/news/exact-6g-msca-doctoral-network-successful-completion-of-schools-4-5/){:target="_blank"}, EURECOM, Sophia Antipolis, France (September 9th, 2025). Talk: "Edge AI in the 6G Era: From Embedded Intelligence to Generative Models at the Edge".
 - [Talk](){:.tag .tag--talk} **[September '25]** Invited speaker at the [Summer School on Edge Artificial Intelligence](http://nordic-edge.org/elementor-page-1998/){:target="_blank"}, KTH Royal Institute of Technology, Stockholm, Sweden (September 3rd, 2025). Talk: "From Edge to Tiny: Reimagining AI in the Era of Generative and Embedded Intelligence".
 - [Service](){:.tag .tag--service} **[July '25]** Invited to serve on the Technical Program Committee of [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/committees){:target="_blank"}.
-
 - **All news [here](https://robertmora.github.io/news/){:target="_blank"}**
