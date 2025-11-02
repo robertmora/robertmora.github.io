@@ -4,6 +4,8 @@ title: "News"
 author_profile: true
 ---
 
+This website has been around only since Summer 2025 — so don’t look for news older than that 😄
+
 - [Talk](){:.tag .tag--talk} **[November '25]** Giving a keynote at the 2nd International Workshop on [Longevity in IoT Systems (LongevIoT 2025)](https://longeviot.github.io/2025/){:target="_blank"}, co-located with ACM IoT 2025 in Vienna, Austria. Talk: "From Deployment to Longevity: Can Agentic AI Sustain IoT Systems?"
 - [Event](){:.tag .tag--event} [Talk](){:.tag .tag--talk} **[November '25]** Serving as organizer and speaker at the [4th Generative Edge AI Forum](https://www.linkedin.com/posts/edgeaifoundation_the-edge-ai-revolution-is-here-the-clouds-activity-7386421618434109440-PQS9){:target="_blank"}, organized by the Edge AI Foundation. Talk: "Four Forums Later: How Generative AI at the Edge Has Evolved and Keeps Evolving".  Register for the event [here](https://www.edgeaifoundation.org/events/generative-edge-ai-architectures-agents-apps){:target="_blank"}!
 - [Event](){:.tag .tag--event} **[October '25]** [European Wireless 2025](https://ew2025.european-wireless.org/){:target="_blank"} successfully held in Sophia Antipolis! A big thank you to everyone who contributed to making this conference a [great success](https://www.linkedin.com/posts/eurecom_5g-6g-ai-activity-7389318904403214336-lbM8){:target="_blank"}.
