@@ -5,191 +5,46 @@ permalink: /research/
 author_profile: true
 ---
 
-<!-- ===== Research Topics (cards grid, HTML+CSS only) ===== -->
 <style>
 :root{
-  --card-bg:#ffffff; --card-border:#e5e7eb; --muted:#6b7280; --ink:#111827;
-  --accent:#0b3d91; --hover:#f8fafc; --chip:#e8f0ff; --shadow:0 8px 24px rgba(2,6,23,.08);
+  --card-bg:#fff; --card-border:#e5e7eb; --muted:#6b7280; --ink:#111827;
+  --accent:#0b3d91; --hover:#f8fafc; --shadow:0 8px 24px rgba(2,6,23,.08);
 }
 @media (prefers-color-scheme:dark){
-  :root{
-    --card-bg:#0b1220; --card-border:#1f2937; --muted:#9aa4b2; --ink:#e5e7eb;
-    --accent:#8ab4ff; --hover:#0f172a; --chip:#1e293b; --shadow:0 8px 24px rgba(0,0,0,.45);
-  }
+  :root{ --card-bg:#0b1220; --card-border:#1f2937; --muted:#9aa4b2; --ink:#e5e7eb; --accent:#8ab4ff; --hover:#0f172a; --shadow:0 8px 24px rgba(0,0,0,.45); }
 }
 
 .research-wrap{margin:1.5rem 0;}
 .research-lead{max-width:70ch;color:var(--muted);}
 
-.r-grid{
-  display:flex;
-  flex-direction:column;
-  gap:1.5rem;
-  margin-top:1.5rem;
+/* Vertical list */
+.r-list{display:flex; flex-direction:column; gap:1.25rem; margin-top:1rem;}
+
+/* Make whole card a link */
+.r-card-link{
+  display:flex; gap:1rem; align-items:stretch; text-decoration:none; color:inherit;
+  background:var(--card-bg); border:1px solid var(--card-border);
+  border-radius:18px; overflow:hidden; box-shadow:var(--shadow);
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
+.r-card-link:hover{transform:translateY(-1px); box-shadow:0 12px 30px rgba(2,6,23,.12);}
+.r-card-link:focus-visible{outline:3px solid var(--accent); outline-offset:2px;}
 
-.r-card{
-  display:flex;
-  flex-direction:row;
-  background:var(--card-bg);
-  border:1px solid var(--card-border);
-  border-radius:18px;
-  overflow:hidden;
-  box-shadow:var(--shadow);
-  transition:transform .15s ease, box-shadow .15s ease;
-}
-
-/* Image on left, text on right */
-.r-media{
-  width:35%;
-  aspect-ratio:auto;
-  max-height:220px;
-}
-.r-media img{width:100%; height:100%; object-fit:cover;}
-
-.r-body{flex:1; padding:1rem 1rem .5rem 1rem;}
-.r-actions{padding:0 1rem 1rem 1rem;}
-
-/* Responsive stacking for small screens */
-@media (max-width:700px){
-  .r-card{flex-direction:column;}
-  .r-media{width:100%; max-height:none;}
-}
-
-.r-media{aspect-ratio: 16/9; background:#eef2f7; display:block; overflow:hidden;}
+/* Image left */
+.r-media{width:34%; min-width:240px; background:#eef2f7;}
 .r-media img{width:100%; height:100%; object-fit:cover; display:block;}
+@media (max-width:700px){ .r-card-link{flex-direction:column;} .r-media{width:100%; min-width:0; height:180px;} }
 
-/* content */
-.r-body{padding:1rem 1rem 0.75rem 1rem;}
-.r-title{
-  margin:0; font-weight:800; font-size:1.15rem; line-height:1.25;
-}
-.r-title a{color:var(--ink); text-decoration:none; border-bottom:2px solid transparent;}
-.r-title a:hover, .r-card:focus-within .r-title a{border-color:var(--accent);}
-.r-blurb{margin:.5rem 0 .75rem 0; color:var(--muted); min-height:3.2em}
+/* Text */
+.r-body{flex:1; padding:1rem 1rem;}
+.r-title{margin:0 0 .5rem 0; font-weight:800; font-size:1.35rem; line-height:1.2;}
+.r-blurb{margin:0 0 .75rem 0; color:var(--muted);}
 
-/* chips row */
-.r-chips{display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:.75rem;}
+/* Tags */
+.r-chips{display:flex; flex-wrap:wrap; gap:.4rem;}
 .r-chip{
-  display:inline-flex; align-items:center; gap:.35rem;
-  padding:.2rem .5rem; border-radius:999px; font-size:.78rem; font-weight:700;
-  background:var(--chip); color:var(--accent); border:1px solid var(--card-border);
+  display:inline-flex; align-items:center; padding:.25rem .6rem;
+  border-radius:999px; font-size:.8rem; font-weight:700;
+  background:#e8f0ff; color:#1e3a8a; border:1px solid var(--card-border);
 }
-
-/* actions reveal */
-.r-actions{
-  display:flex; gap:.5rem; padding:0 1rem 1rem 1rem;
-  opacity:.0; transform:translateY(-4px); pointer-events:none;
-  transition:opacity .15s ease, transform .15s ease;
-}
-.r-card:hover .r-actions, .r-card:focus-within .r-actions{opacity:1; transform:translateY(0); pointer-events:auto;}
-.r-btn{
-  display:inline-flex; align-items:center; gap:.4rem; padding:.45rem .7rem;
-  border-radius:10px; border:1px solid var(--card-border); background:var(--hover);
-  font-weight:600; text-decoration:none; white-space:nowrap;
-}
-.r-btn svg{width:1em; height:1em}
-
-/* subtle lift on hover */
-.r-card:hover{transform:translateY(-2px); box-shadow:0 12px 30px rgba(2,6,23,.12)}
 </style>
-
-<!-- Icons -->
-<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
-  <symbol id="ri-link" viewBox="0 0 24 24"><path d="M10 14a5 5 0 007.07 0l2.12-2.12a5 5 0 00-7.07-7.07L10 6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 10a5 5 0 00-7.07 0L4.8 12.12a5 5 0 007.07 7.07L14 18" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
-  <symbol id="ri-doc" viewBox="0 0 24 24"><path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z" fill="currentColor"/><path d="M14 2v5h5" fill="#fff"/></symbol>
-  <symbol id="ri-video" viewBox="0 0 24 24"><path d="M3 7h12v10H3z" fill="currentColor"/><path d="M15 10l6-3v10l-6-3z" fill="currentColor"/></symbol>
-  <symbol id="ri-code" viewBox="0 0 24 24"><path d="M9 18l-6-6 6-6M15 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
-</svg>
-
-<div class="research-wrap">
-  <p class="research-lead">
-    I explore AI across the computing continuum with emphasis on reliability, efficiency, and collaboration.
-    Below are four current topics—each card links to a section or external page with details, publications, and demos.
-  </p>
-
-  <div class="r-grid">
-
-    <!-- Topic 1 -->
-    <article class="r-card">
-      <a class="r-media" href="/research/collaborative-llms/">
-        <img src="/assets/research/collab-llms.jpg" alt="Diagram of cooperative LLMs across edge and cloud">
-      </a>
-      <div class="r-body">
-        <h3 class="r-title"><a href="/research/collaborative-llms/">Collaborative LLM Inference at the Edge</a></h3>
-        <p class="r-blurb">How devices, edge nodes, and cloud cooperate to serve LLM requests under latency, energy, and cost constraints.</p>
-        <div class="r-chips">
-          <span class="r-chip">Scheduling</span>
-          <span class="r-chip">Interoperability</span>
-          <span class="r-chip">QoS/QoE</span>
-        </div>
-      </div>
-      <div class="r-actions">
-        <a class="r-btn" href="/papers/collab-llm-overview.pdf"><svg><use href="#ri-doc"/></svg>Overview PDF</a>
-        <a class="r-btn" href="https://github.com/yourorg/collab-llm"><svg><use href="#ri-code"/></svg>Code</a>
-        <a class="r-btn" href="https://youtu.be/yourvideo"><svg><use href="#ri-video"/></svg>Talk</a>
-      </div>
-    </article>
-
-    <!-- Topic 2 -->
-    <article class="r-card">
-      <a class="r-media" href="/research/tinyml-autopilot/">
-        <img src="/assets/research/tinyml.jpg" alt="Tiny microcontrollers running ML workloads">
-      </a>
-      <div class="r-body">
-        <h3 class="r-title"><a href="/research/tinyml-autopilot/">Autopilot for TinyML Lifecycles</a></h3>
-        <p class="r-blurb">LLM-powered automation of data prep, conversion, quantization, and code generation for MCU-class devices.</p>
-        <div class="r-chips">
-          <span class="r-chip">MCU</span>
-          <span class="r-chip">Agents</span>
-          <span class="r-chip">Reliability</span>
-        </div>
-      </div>
-      <div class="r-actions">
-        <a class="r-btn" href="/demo/tinyml/"><svg><use href="#ri-link"/></svg>Demo</a>
-        <a class="r-btn" href="/papers/autopilot.pdf"><svg><use href="#ri-doc"/></svg>Paper</a>
-      </div>
-    </article>
-
-    <!-- Topic 3 -->
-    <article class="r-card">
-      <a class="r-media" href="/research/digital-twins/">
-        <img src="/assets/research/digital-twin.jpg" alt="Digital twin visualization over a campus network">
-      </a>
-      <div class="r-body">
-        <h3 class="r-title"><a href="/research/digital-twins/">Networked Digital Twins</a></h3>
-        <p class="r-blurb">Real-time twins over heterogeneous access, with Generative AI for inference, analytics, and resilience.</p>
-        <div class="r-chips">
-          <span class="r-chip">5G/6G</span>
-          <span class="r-chip">Heterogeneous Access</span>
-          <span class="r-chip">GenAI</span>
-        </div>
-      </div>
-      <div class="r-actions">
-        <a class="r-btn" href="/papers/dt-campus.pdf"><svg><use href="#ri-doc"/></svg>Whitepaper</a>
-        <a class="r-btn" href="https://github.com/yourorg/dt-stack"><svg><use href="#ri-code"/></svg>Stack</a>
-      </div>
-    </article>
-
-    <!-- Topic 4 -->
-    <article class="r-card">
-      <a class="r-media" href="/research/ai-systems-reasoning/">
-        <img src="/assets/research/reasoning.jpg" alt="Symbolic graphs and neural modules connected">
-      </a>
-      <div class="r-body">
-        <h3 class="r-title"><a href="/research/ai-systems-reasoning/">Neuro-Symbolic Reasoning for Edge AI</a></h3>
-        <p class="r-blurb">Combining symbolic methods with LLMs to improve planning, verification, and on-device reliability.</p>
-        <div class="r-chips">
-          <span class="r-chip">Probabilistic Circuits</span>
-          <span class="r-chip">Verification</span>
-          <span class="r-chip">On-device</span>
-        </div>
-      </div>
-      <div class="r-actions">
-        <a class="r-btn" href="/papers/reasonai-edge.pdf"><svg><use href="#ri-doc"/></svg>Proposal</a>
-        <a class="r-btn" href="/talks/reasonai-edge/"><svg><use href="#ri-video"/></svg>Talk</a>
-      </div>
-    </article>
-
-  </div>
-</div>
