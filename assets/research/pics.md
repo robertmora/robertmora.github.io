@@ -1,0 +1,1 @@
+Pics of research activities
