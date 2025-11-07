@@ -17,8 +17,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Team"
-    url: /team/
+  - title: "People"
+    url: /people/
         
   - title: "Dissemination"
     url: /talks/
@@ -29,5 +29,5 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+  #  url: /markdown/
