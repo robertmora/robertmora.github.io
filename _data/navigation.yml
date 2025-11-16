@@ -20,8 +20,8 @@ main:
   - title: "Collaborators"
     url: /collaborators/
         
-  - title: "Dissemination"
-    url: /talks/
+  #  - title: "Dissemination"
+  #    url: /talks/
     
   - title: "CV"
     url: /cv/
