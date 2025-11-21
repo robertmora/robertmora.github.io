@@ -126,7 +126,80 @@ author_profile: true
 .collaborators-intro {
   font-size: 15px;
 }
-  
+
+/* Grid layout – same idea as teaching */
+.card-grid.collaborators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Card base */
+.collab-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Top row: avatar + institution logo */
+.collab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.collab-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.collab-logo {
+  height: 32px;
+  width: auto;
+  opacity: 0.9;
+}
+
+/* Text */
+.collab-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+.collab-flag {
+  font-size: 1rem;
+  margin-left: 0.25rem;
+}
+
+.collab-topic {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #555;
+  margin: 0 0 0.75rem;
+}
+
+/* Tags – reuse from teaching if you have it */
+.collab-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: #f2f4ff;
+  border: 1px solid #e0e4ff;
+  white-space: nowrap;
+}
 </style>
 
 <section class="collaborators-section">
@@ -138,51 +211,77 @@ author_profile: true
 </p>
 
 
-<div class="container">
-    <!-- Current colls -->
-    <section class="collaborators-block">
-      <h2 class="collaborators-heading">PhD Students</h2>
-
-      <div class="coll-grid coll-grid--two-cols">
-        <!-- PROTIoT -->
-        <article class="coll-card">
-          <div class="coll-main">
-            <h3 class="coll-title">Name Surname</h3>
-
-            <div class="coll-tags">
-              <span class="coll-badge">2024–2025</span>
-              <span class="coll-badge">Bachelor / Master</span>
-            </div>
-
-            <p class="coll-description">
-              PROTIoT explores connectivity for the IoT world: LoRa, SigFox, LTE-M, NB-IoT, ZigBee, 6LoWPAN, Thread & more.
-            </p>
-          </div>
-          <div class="coll-side">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Eurecom.svg" alt="EURECOM">
-          </div>
-        </article>
-
-        <!-- APPIoT -->
-        <article class="coll-card">
-          <div class="coll-main">
-            <h3 class="coll-title">Name Surname</h3>
-
-            <div class="coll-tags">
-              <span class="coll-badge">2024–2025</span>
-              <span class="coll-badge">Bachelor / Master</span>
-            </div>
-
-            <p class="coll-description">
-              APPIoT dives into application-layer protocols for the Internet of Things: HTTP & CoAP, MQTT & XMPP, oneM2M, 3GPP IoT, and LwM2M. 
-            </p>
-          </div>
-          <div class="coll-side">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Eurecom.svg" alt="EURECOM">
-          </div>
-        </article>
+<h3>PhD Students</h3>
+  <div class="card-grid collaborators-grid">
+    <!-- Michele -->
+    <article class="collab-card">
+      <div class="collab-header">
+        <img src="https://www.eurecom.eu/fr/people/ferrero-michele/pictures/ferrero-michele.jpg" alt="Michele Ferrero"
+             class="collab-avatar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Eurecom.svg/1200px-Eurecom.svg.png" alt="EURECOM" class="collab-logo">
       </div>
-    </section>
+      <div class="collab-body">
+        <h4 class="collab-name">
+          Michele Ferrero
+        </h4>
+        <p class="collab-topic">
+          “TBD”
+        </p>
+        <div class="collab-tags">
+          <span class="tag">TBD</span>
+          <span class="tag">TBD</span>
+          <span class="tag">TBD</span>
+        </div>
+      </div>
+    </article>
 
-    </div>
+    <!-- Hann -->
+    <article class="collab-card">
+      <div class="collab-header">
+        <img src="https://scholar.google.com/citations/images/avatar_scholar_128.png" alt="Guanghan Wu"
+             class="collab-avatar">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/University_of_Helsinki.svg/1125px-University_of_Helsinki.svg.png" alt="University of Helsinki" class="collab-logo">
+      </div>
+      <div class="collab-body">
+        <h4 class="collab-name">
+          Guanghan Wu
+        </h4>
+        <p class="collab-topic">
+          “TBD”
+        </p>
+        <div class="collab-tags">
+          <span class="tag">TBD</span>
+          <span class="tag">TBD</span>
+          <span class="tag">TBD</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Paulius -->
+    <article class="collab-card">
+      <div class="collab-header">
+        <img src="https://csdl-images.ieeecomputer.org/mags/so/2024/01/figures/daubaris.a1-3320742.gif" alt="Paulius Daubaris"
+             class="collab-avatar">
+        <img src="https://scholar.google.com/citations/images/avatar_scholar_128.png" alt="Paulius Daubaris" class="collab-logo">
+      </div>
+      <div class="collab-body">
+        <h4 class="collab-name">
+          Paulius Daubaris
+        </h4>
+        <p class="collab-topic">
+          “tbd”
+        </p>
+        <div class="collab-tags">
+          <span class="tag">TBD</span>
+          <span class="tag">TBD</span>
+          <span class="tag">TBD</span>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <h3>Alumni</h3>
+  <div class="card-grid collaborators-grid">
+    <!-- Repeat same card structure for alumni -->
+  </div>
 </section>
