@@ -17,6 +17,7 @@ Some time ago, I shared more about my background and career path in an interview
 
 News
 ======
+- [Publication](){:.tag .tag--pub} **[December '25]** Our paper "AGORAN: An Agentic Open Marketplace for 6G RAN Automation" has been accepted for publication in Elsevier Computer Networks! Congrats to Ilias and everyone involved!
 - [Service](){:.tag .tag--service} **[November '25]** I've been appointed as co-chair of the Generative Edge AI Working Group of the Edge AI Foundation for the next term! Thanks to Danilo Pau, Pete Bernard, and everyone at the foundation for the trust.
 - [Talk](){:.tag .tag--talk} **[November '25]** I delivered my talk “Four Forums Later: How Generative AI at the Edge Has Evolved and Keeps Evolving” at the 4th Generative Edge AI Forum, organized by the Edge AI Foundation. You can watch the talk [here](https://youtu.be/oTso-e2JCyU?t=11096){:target="_blank"}, and the presentation slides are available [here](https://github.com/robertmora/robertmora.github.io/blob/master/files/Roberto%20Morabito_4th%20Forum_Four%20Forums%20Later_How%20GenAI%20at%20the%20Edge%20Has%20Evolved_final.pdf){:target="_blank"}.
 - [Publication](){:.tag .tag--pub} **[November '25]** Our article "Agentic TinyML for Intent-aware Handover in 6G Wireless Networks" is accepted in IEEE Wireless Communications Magazine, in collaboration with the University of Oulu, University of Helsinki, and RISE. Congrats to Alaa! Preprint available [here](https://github.com/robertmora/robertmora.github.io/blob/master/files/Agentic%20TinyML%20for%20Intent-aware%20Handover%20in%206G%20Wireless%20Networks.pdf){:target="_blank"}.
@@ -26,7 +27,6 @@ News
 - [Event](){:.tag .tag--event} **[October '25]** [European Wireless 2025](https://ew2025.european-wireless.org/){:target="_blank"} successfully held in Sophia Antipolis! A big thank you to everyone who contributed to making this conference a [great success](https://www.linkedin.com/posts/eurecom_5g-6g-ai-activity-7389318904403214336-lbM8){:target="_blank"}.
 - [Event](){:.tag .tag--event} [Talk](){:.tag .tag--talk} **[October '25]** Serving as organizer and speaker at the 2025 [Training School on Networks & AI](https://n-ai-twork.sciencesconf.org/){:target="_blank"} (October 20–24, CNAM, Paris). Registration is open until October 10 — consider joining!
 - [Service](){:.tag .tag--service} **[September '25]** Invited to serve on the Senior Program Committee (Systems and Infrastructure for Web, Mobile, and Web of Things track) at [The ACM Web Conference](https://www2025.thewebconf.org/){:target="_blank"}.
-- [Talk](){:.tag .tag--talk} **[September '25]** Invited speaker at the Global Connect 2025, Paris, France (September 23rd-24th, 2025). Talk: "Generative AI at the Edge: From Inference Performance to Code Generation – A Reality Check for Next-Generation Networks".
 - **All news [here](https://robertmora.github.io/news/){:target="_blank"}**
 
 **🚧 Note: This website is currently under construction as I’ve just started building it. Some sections may be incomplete or updated frequently — thanks for your patience!**
