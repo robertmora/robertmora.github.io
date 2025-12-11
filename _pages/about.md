@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+**🚧 Note: This website is currently under construction as I’ve just started building it. Some sections may be incomplete or updated frequently — thanks for your patience!**
 
 I’m an Assistant Professor in the **Networked Systems group** of the Communication Systems Department at [EURECOM](https://www.eurecom.fr/en){:target="_blank"}, a [*Grande École*](https://en.wikipedia.org/wiki/Grande_%C3%A9cole){:target="_blank"}, research center, and graduate school located in the [*French Riviera (Côte d'Azur)*](https://en.wikipedia.org/wiki/French_Riviera){:target="_blank"}. I’m also a [Docent](https://www.helsinki.fi/en/about-us/people/researchers-and-teachers/docents){:target="_blank"} at the University of Helsinki, Finland. Before joining EURECOM, I was a Senior Researcher in the Department of Computer Science at the University of Helsinki. Earlier in my career (2014–2022), I spent eight years at Ericsson Research Finland, first with the Cloud and System Platforms team and later with the IoT Technologies & Cyber-Physical Systems team.
 
@@ -28,5 +29,4 @@ News
 - [Event](){:.tag .tag--event} [Talk](){:.tag .tag--talk} **[October '25]** Serving as organizer and speaker at the 2025 [Training School on Networks & AI](https://n-ai-twork.sciencesconf.org/){:target="_blank"} (October 20–24, CNAM, Paris). Registration is open until October 10 — consider joining!
 - [Service](){:.tag .tag--service} **[September '25]** Invited to serve on the Senior Program Committee (Systems and Infrastructure for Web, Mobile, and Web of Things track) at [The ACM Web Conference](https://www2025.thewebconf.org/){:target="_blank"}.
 - **All news [here](https://robertmora.github.io/news/){:target="_blank"}**
-
-**🚧 Note: This website is currently under construction as I’ve just started building it. Some sections may be incomplete or updated frequently — thanks for your patience!**
+- 
