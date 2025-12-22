@@ -29,4 +29,3 @@ News
 - [Event](){:.tag .tag--event} **[October '25]** [European Wireless 2025](https://ew2025.european-wireless.org/){:target="_blank"} successfully held in Sophia Antipolis! A big thank you to everyone who contributed to making this conference a [great success](https://www.linkedin.com/posts/eurecom_5g-6g-ai-activity-7389318904403214336-lbM8){:target="_blank"}.
 - [Event](){:.tag .tag--event} [Talk](){:.tag .tag--talk} **[October '25]** Serving as organizer and speaker at the 2025 [Training School on Networks & AI](https://n-ai-twork.sciencesconf.org/){:target="_blank"} (October 20–24, CNAM, Paris). Registration is open until October 10 — consider joining!
 - **All news [here](https://robertmora.github.io/news/){:target="_blank"}**
-- 
