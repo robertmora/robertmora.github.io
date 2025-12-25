@@ -6,6 +6,7 @@ author_profile: true
 
 This website has been around only since Summer 2025 — so don’t look for news older than that 😄
 
+- [Service](){:.tag .tag--service} **[December '25]** Honored to be recognized as a Distinguished Member of the [IEEE INFOCOM 2026 Technical Program Committee](https://infocom2026.ieee-infocom.org/committees){:target="_blank"}. Many thanks to the TPC chairs and the IEEE INFOCOM community.
 - [Publication](){:.tag .tag--pub} **[December '25]** Our paper "Sometimes painful but certainly promising: Feasibility and trade-offs of language model inference at the edge" has been accepted to ACM Transactions on Embedded Computing Systems. Congrats to Max on his first PhD paper! Preprint available [here](https://arxiv.org/pdf/2503.09114){:target="_blank"}.
 - [Publication](){:.tag .tag--pub} **[December '25]** Our paper "AGORAN: An Agentic Open Marketplace for 6G RAN Automation" has been accepted for publication in Elsevier Computer Networks! Congrats to Ilias and everyone involved!
 - [Service](){:.tag .tag--service} **[November '25]** I've been appointed as co-chair of the Generative Edge AI Working Group of the Edge AI Foundation for the next term! Thanks to Danilo Pau, Pete Bernard, and everyone at the foundation for the trust.
