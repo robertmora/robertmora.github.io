@@ -6,6 +6,7 @@ author_profile: true
 
 This website has been around only since Summer 2025 — so don’t look for news older than that 😄
 
+- [Talk](){:.tag .tag--talk} **[April '26]** The recording of my seminar at the NSF TILOS Institute is now available online, and you can watch it [here](https://www.youtube.com/watch?v=SDxzFfiau8k){:target="_blank"}. Thanks again to TILOS, Bryan, and SDSU for the invitation and for hosting me.
 - [Publication](){:.tag .tag--pub} **[April '26]** Our paper "Digital Twins for Smart Campus Networks: An End-to-End Framework for Multi-Domain Data Intelligence" has been accepted for publication in Elsevier Computer Communications. Congrats to Bivek and Yasith! Paper online soon.
 - [Publication](){:.tag .tag--pub} **[March '26]** Together with Mallik Tatipamula (CTO, Ericsson Silicon Valley), we wrote a perspective article titled "The Internet of Physical AI Agents: Interoperability, Longevity, and the Cost of Getting It Wrong". This piece reflects on the evolution beyond IoT towards Physical AI Agents, discussing key challenges around interoperability, lifecycle management, and long-term system sustainability. You can find it [here](https://arxiv.org/pdf/2603.15900){:target="_blank"}.
 - [Publication](){:.tag .tag--pub} **[March '26]** Our poster "Probabilistic Reasoning on Microcontrollers for Robust Embedded AI Sensing" has been accepted at ACM SenSys 2026. Congrats Jelin! Collaboration with Aalto University and UCLouvain.
