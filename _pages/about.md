@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**🚧 Note: This website is currently under construction as I’ve just started building it. Some sections may be incomplete or updated frequently — thanks for your patience!**
+📢 <span style="color:red;"><strong>Big news!</strong></span> I’m joining the [Technical University of Denmark (DTU)](https://www.dtu.dk){:target="_blank"} as an **Associate Professor** at [DTU Compute](https://www.compute.dtu.dk/){:target="_blank"}! I’m also excited to have received a **Novo Nordisk Foundation Start Package Grant** to support my new research activities. And yes, **I’m hiring!** A postdoctoral position is currently open, with a PhD position coming soon. More details [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7656){:target="_blank"}.
 
 I’m an Assistant Professor in the **Networked Systems group** of the Communication Systems Department at [EURECOM](https://www.eurecom.fr/en){:target="_blank"}, a [*Grande École*](https://en.wikipedia.org/wiki/Grande_%C3%A9cole){:target="_blank"}, research center, and graduate school located in the [*French Riviera (Côte d'Azur)*](https://en.wikipedia.org/wiki/French_Riviera){:target="_blank"}. I’m also a [Docent](https://www.helsinki.fi/en/about-us/people/researchers-and-teachers/docents){:target="_blank"} at the University of Helsinki, Finland. Before joining EURECOM, I was a Senior Researcher in the Department of Computer Science at the University of Helsinki. Earlier in my career (2014–2022), I spent eight years at Ericsson Research Finland, first with the Cloud and System Platforms team and later with the IoT Technologies & Cyber-Physical Systems team.
 
