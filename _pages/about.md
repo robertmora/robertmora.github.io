@@ -8,7 +8,8 @@ redirect_from:
 ---
 <div style="background-color: #fffbea; border: 1px solid #f0df9a; border-radius: 8px; padding: 14px 18px; margin: 18px 0;">
 
-📢 <span style="color:#d32f2f;"><strong>Big news!</strong></span> I’m joining the [Technical University of Denmark (DTU)](https://www.dtu.dk){:target="_blank"} as an **Associate Professor** at [DTU Compute](https://www.compute.dtu.dk/){:target="_blank"}! I’m also excited to have received a **Novo Nordisk Foundation Start Package Grant** to support my new research activities. And yes, **I’m hiring!** A postdoctoral position is currently open, with a PhD position coming soon. More details [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7656){:target="_blank"}.
+📢 <span style="color:#d32f2f;"><strong>Big news!</strong></span>
+I’m joining the <a href="https://www.dtu.dk" target="_blank">Technical University of Denmark (DTU)</a> as an <strong>Associate Professor</strong> at <a href="https://www.compute.dtu.dk/" target="_blank">DTU Compute</a>! I’m also excited to have received a <strong>Novo Nordisk Foundation Start Package Grant</strong> to support my new research activities. And yes, <strong>I’m hiring!</strong> A postdoctoral position is currently open, with a PhD position coming soon. More details <a href="https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7656" target="_blank">here</a>.
 
 </div>
 
