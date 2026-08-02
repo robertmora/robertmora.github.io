@@ -175,7 +175,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: darkblue;
+  background: #990000;
 
   a {
     display: block;
@@ -198,8 +198,8 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: darkblue;
-    color: darkblue;
+    background-color: #990000;
+    color: #990000;
     cursor: pointer;
     z-index: 100;
   }
@@ -233,7 +233,7 @@
         display: flex;
         justify-content: center;
         cursor: pointer;
-        background: darkblue;
+        background: #990000;
       }
     }
 
@@ -246,7 +246,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: darkblue;
+        background: #990000;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -271,7 +271,7 @@
     padding: 5px;
     border: 1px solid var(--global-border-color);
     border-radius: $border-radius;
-    background: darkblue;
+    background: #990000;
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
