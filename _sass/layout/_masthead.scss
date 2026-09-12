@@ -91,21 +91,33 @@
   }
 }
 
-.masthead__dtu-logo {
+.masthead .masthead__inner-wrap {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
-  flex: 0 0 auto;
-  margin-right: 1em;
-
-  img {
-    display: block;
-    width: 32px;
-    height: 40px;
-    object-fit: contain;
-  }
 }
 
-.masthead__menu {
+/* The existing clearfix is unnecessary inside a flex container. */
+.masthead .masthead__inner-wrap::before,
+.masthead .masthead__inner-wrap::after {
+  display: none;
+}
+
+.masthead .masthead__dtu-logo {
+  display: flex;
+  align-items: center;
+  flex: 0 0 32px;
+  margin: 0 1em 0 0;
+}
+
+.masthead .masthead__dtu-logo img {
+  display: block;
+  width: 32px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.masthead .masthead__menu {
   flex: 1 1 0%;
   min-width: 0;
 }
