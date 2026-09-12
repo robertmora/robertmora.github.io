@@ -32,6 +32,8 @@
   }
 
   &__inner-wrap {
+    display: flex;
+    align-items: center;
     @include container;
     @include clearfix;
     padding: 0.5em 1em;
@@ -87,4 +89,23 @@
     padding-right: 2em;
     font-weight: 700;
   }
+}
+
+.masthead__dtu-logo {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  margin-right: 1em;
+
+  img {
+    display: block;
+    width: 32px;
+    height: 40px;
+    object-fit: contain;
+  }
+}
+
+.masthead__menu {
+  flex: 1 1 0%;
+  min-width: 0;
 }
