@@ -6,6 +6,7 @@ author_profile: true
 
 This website has been around only since Summer 2025 — so don’t look for news older than that 😄
 
+- [Publication](){:.tag .tag--pub} **[September '26]** Our paper "Adaptive Digital Twin Synchronization under Bandwidth Constraints: A Quantile Forecasting and Kullback–Leibler Divergence Approach" has been published in Elsevier Computer Networks. Congrats to Yasith!
 - [Talk](){:.tag .tag--talk} **[August '26]** Back in Helsinki! I will be giving a talk at the [EdgeGen PhD Intensive Course](https://www.helsinki.fi/en/projects/nordic-university-collaboration-edge-intelligence/news-and-events/edgegen-phd-intensive-course-generative-edge-intelligence-2026){:target="_blank"} on Generative Edge Intelligence. Talk: "Lessons Learned from Edge AI Automation: What's the Next Trajectory of Computation?"
 - [Funding](){:.tag .tag--funding} **[August '26]** Great news! Our HEMES-6G project has been selected for funding under the SNS JU 6G call, with a total budget of around €8M. I served as the EURECOM PI during the proposal preparation, and I’m very happy to see it succeed and to leave another exciting project in the hands of the EURECOM team!
 - [Publication](){:.tag .tag--pub} **[July '26]** Our paper "Multi-Modal LLMs at the Edge: A Comparative Study Against Specialized Edge Pipelines" has been accepted at the IEEE/ACM 11th Symposium on Edge Computing (SEC 2026). Happy to have collaborated with Stefan and Jan from Leibniz University Hannover!
