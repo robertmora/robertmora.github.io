@@ -8,8 +8,7 @@ redirect_from:
 ---
 <div style="background-color: #fffbea; border: 1px solid #f0df9a; border-radius: 8px; padding: 10px 14px; margin: 16px 0; font-size: 0.9em;">
 
-📢 <span style="color:#d32f2f;"><strong>Big news!</strong></span>
-I’ve joined the <span style="color:#990000;"><strong>Technical University of Denmark (DTU)</strong></span> as an <strong>Associate Professor</strong> at <a href="https://www.compute.dtu.dk/" target="_blank">DTU Compute</a>! I’m also excited to have received a <strong>Novo Nordisk Foundation Start Package Grant</strong> to support my new research activities. And yes, <strong>I’m hiring!</strong> A <a href="https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7656" target="_blank">postdoctoral position</a> and a <a href="https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7807" target="_blank">PhD scholarship</a> are currently open. Feel free to reach out if you'd like to know more about either opportunity.
+📢 I’ve joined the <span style="color:#990000;"><strong>Technical University of Denmark (DTU)</strong></span> as an <strong>Associate Professor</strong> at <a href="https://www.compute.dtu.dk/" target="_blank">DTU Compute</a>! I’m also excited to have received a <strong>Novo Nordisk Foundation Start Package Grant</strong> to support my new research activities. And yes, <strong>I’m hiring!</strong> A <a href="https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7807" target="_blank">PhD scholarship</a> is currently open. Feel free to reach out if you'd like to know more about either opportunity.
 
 </div>
 
@@ -21,6 +20,7 @@ My research lies at the intersection of Networked Systems, Edge Computing, and D
 
 News
 ======
+- [Talk](){:.tag .tag--talk} **[October '26]** I will be speaking at the Danish Digitalization, Data Science and AI (D3A 4.0) conference as part of the Deep Dive Workshop on "Resource-Aware & Constrained AI". Looking forward to discussing recent advances in Edge AI and Embedded Intelligence!
 - [Publication](){:.tag .tag--pub} **[September '26]** Our paper "MCCL: Measurement-based Collective Communication Library" has been accepted for publication at ACM CoNEXT 2026 (22nd International Conference on Emerging Networking EXperiments and Technologies). Big congrats to Michele and the rest of the co-authors!
 - [Publication](){:.tag .tag--pub} **[September '26]** Our paper "Adaptive Digital Twin Synchronization under Bandwidth Constraints: A Quantile Forecasting and Kullback–Leibler Divergence Approach" has been published in Elsevier Computer Networks. Congrats to Yasith!
 - [Talk](){:.tag .tag--talk} **[August '26]** Back in Helsinki! I will be giving a talk at the [EdgeGen PhD Intensive Course](https://www.helsinki.fi/en/projects/nordic-university-collaboration-edge-intelligence/news-and-events/edgegen-phd-intensive-course-generative-edge-intelligence-2026){:target="_blank"} on Generative Edge Intelligence. Talk: "Lessons Learned from Edge AI Automation: What's the Next Trajectory of Computation?"
