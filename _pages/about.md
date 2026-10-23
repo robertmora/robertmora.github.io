@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m an Associate Professor at the **Technical University of Denmark (DTU)**, Department of Applied Mathematics and Computer Science (DTU Compute). My research activities at DTU are supported by a Novo Nordisk Foundation Start Package Grant. I also co-chair the Generative Edge AI Working Group at the Edge AI Foundation. 
+I’m an Associate Professor at the **Technical University of Denmark (DTU)**, Department of Applied Mathematics and Computer Science ([DTU Compute](https://www.compute.dtu.dk/){:target="_blank"}). My research activities at DTU are supported by a Novo Nordisk Foundation Start Package Grant. I also co-chair the Generative Edge AI [Working Group](https://wiki.edgeaifoundation.org/working-group/genedgeai/){:target="_blank"} at the [Edge AI Foundation](https://www.edgeaifoundation.org/){:target="_blank"}. 
 
 Before joining DTU, I was an Assistant Professor in the Networked Systems group at [EURECOM](https://www.eurecom.fr/en){:target="_blank"}, a [*Grande École*](https://en.wikipedia.org/wiki/Grande_%C3%A9cole){:target="_blank"}, research center, and graduate school located in Sophia Antipolis. I’m also a [Docent](https://www.helsinki.fi/en/about-us/people/researchers-and-teachers/docents){:target="_blank"} at the University of Helsinki, Finland. Before EURECOM, I was a Senior Researcher in the Department of Computer Science at the University of Helsinki. Earlier in my career (2014–2022), I spent eight years at Ericsson Research Finland, first with the Cloud and System Platforms team and later with the IoT Technologies & Cyber-Physical Systems team.
 
