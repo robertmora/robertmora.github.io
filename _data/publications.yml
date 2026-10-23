@@ -1,0 +1,740 @@
+# Edit this file to maintain the Publications page. No HTML changes needed.
+# citation / venue: plain text, no HTML. Keep indentation (spaces, never tabs).
+# category: journals | confs | patents | books | theses | preprints
+# month: 1–12 if known; 0 means unknown, NOT January.
+# sort_key: YYYYMMTT (integer). MM=00 for unknown month; TT breaks ties.
+# Larger sort_key comes first. Keep its YYYY/MM consistent with year/month.
+# Recent: top five non-preprints, including forthcoming entries, sorted by this key.
+# Same-month/unknown-month ties use source-list order, not an invented exact date.
+# badges: plain labels; links: only URLs actually present in the supplied HTML.
+# New link example: {type: pdf, label: PDF, url: 'https://...'}
+# Omit missing URLs; never use placeholder links.
+# Source: supplied September2026 DOCX (its overview is dated 23 October 2026).
+
+
+- id: "pub-046"
+  category: "confs"
+  year: 2026
+  month: 12
+  sort_key: 20261254
+  citation: "Ferrero, M., Castellano, G., Medagliani, P., Martin, S., Morabito, R., and Gallo, M., 2026, December. MCCL: Measurement-based Collective Communication Library."
+  venue: "In Proceedings of the ACM on Networking, 4(CoNEXT4), Article 55, 25 pages."
+  badges: []
+  links: []
+
+- id: "pub-049"
+  category: "confs"
+  year: 2026
+  month: 12
+  sort_key: 20261251
+  citation: "Morabito, R. and Wu, G., 2026 December. Autopilots Need Parachutes: Lessons Learned from LLM-Automated Embedded ML Pipelines."
+  venue: "In 27th ACM International Middleware Conference. ACM."
+  badges: ["To appear"]
+  links: []
+
+- id: "pub-047"
+  category: "confs"
+  year: 2026
+  month: 10
+  sort_key: 20261053
+  citation: "Petrescu, S., Morabito, R., and Rellermeyer, J., 2026, October. Multi-Modal LLMs at the Edge: A Comparative Study Against Specialized Edge Pipelines."
+  venue: "In 2026 ACM/IEEE Symposium on Edge Computing (SEC)."
+  badges: ["To appear"]
+  links: []
+
+- id: "pub-048"
+  category: "confs"
+  year: 2026
+  month: 5
+  sort_key: 20260552
+  citation: "Leslin, J., Andraud, M. and Morabito, R., 2026, May. Probabilistic Reasoning on Microcontrollers for Robust Embedded AI Sensing."
+  venue: "In 2026 ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems-Posters and Demos (SenSys-Adjunct) (pp. 137-138). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-050"
+  category: "confs"
+  year: 2026
+  month: 5
+  sort_key: 20260550
+  citation: "Wanigarathna, Y.R., Tarkoma, S. and Morabito, R., 2026, May. Predict First, Sync When Needed: A Risk-Aware Approach to Adaptive Digital Twin Synchronization under Bandwidth Constraints."
+  venue: "In 2026 IEEE/IFIP Network Operations and Management Symposium (NOMS). IEEE."
+  badges: ["To appear"]
+  links: []
+
+- id: "pub-027"
+  category: "journals"
+  year: 2026
+  month: 0
+  sort_key: 20260073
+  citation: "Wanigarathna, Y.R., Tarkoma, S. and Morabito, R., 2026. Adaptive Digital Twin Synchronization under Bandwidth Constraints: A Quantile Forecasting and Kullback-Leibler Divergence Approach."
+  venue: "Computer Networks."
+  badges: ["To appear"]
+  links: []
+
+- id: "pub-028"
+  category: "journals"
+  year: 2026
+  month: 0
+  sort_key: 20260072
+  citation: "Sedlak, B., Pujol, V.C., Motlagh, N.H., Morabito, R., Wilhelmi, F., de Abril, I.M., Murturi, I., Bellalta, B., Donta, P.K. and Dustdar, S., 2026. Large-Scale Sensor Systems for Sentient Environments: Emerging Research Directions."
+  venue: "IEEE Journal of Selected Areas in Sensors."
+  badges: []
+  links: []
+
+- id: "pub-029"
+  category: "journals"
+  year: 2026
+  month: 0
+  sort_key: 20260071
+  citation: "Wu, G. and Morabito, R., 2026. BEAVER-EDGE: An LLM-orchestrated framework for edge AI lifecycle management automation."
+  venue: "Future Generation Computer Systems, p.108697."
+  badges: []
+  links: []
+
+- id: "pub-030"
+  category: "journals"
+  year: 2026
+  month: 0
+  sort_key: 20260070
+  citation: "Daubaris, P., Jang, S.Y. and Morabito, R., 2026. μswim: A gossip protocol for resource-constrained edge devices."
+  venue: "Computer Networks, 287, p.112539."
+  badges: []
+  links: []
+
+- id: "pub-031"
+  category: "journals"
+  year: 2026
+  month: 0
+  sort_key: 20260069
+  citation: "Pandey, B., Wanigarathna, Y.R., Tarkoma, S. and Morabito, R., 2026. Digital Twins for smart campus networks: An end-to-end framework for multi-domain data intelligence."
+  venue: "Computer Communications, p.108518."
+  badges: []
+  links: []
+
+- id: "pub-032"
+  category: "journals"
+  year: 2026
+  month: 0
+  sort_key: 20260068
+  citation: "Abstreiter, M., Tarkoma, S. and Morabito, R., 2026. Sometimes Painful but Promising: Feasibility and Trade-Offs of On-Device Language Model Inference."
+  venue: "ACM Transactions on Embedded Computing Systems."
+  badges: []
+  links: []
+
+- id: "pub-051"
+  category: "confs"
+  year: 2025
+  month: 12
+  sort_key: 20251249
+  citation: "Wiwatphonthana, P., Komu, M., Vandikas, K., Eleftheriadis, L., Gorbatov, O., Tesfatsion, S., Cai, X. and Morabito, R., 2025, December. Towards Energy-Efficient Serverless Clouds: A Reinforcement Learning-Based Scheduling Approach."
+  venue: "In 2025 IEEE 17th International Conference on Computational Intelligence and Communication Networks (CICN) (pp. 675-682). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-018"
+  category: "journals"
+  year: 2025
+  month: 11
+  sort_key: 20251182
+  citation: "Morabito, R. and Wu, G., 2025. When the Code Autopilot Breaks: Why Large Language Models Falter in Embedded Machine Learning."
+  venue: "Computer, 58(11), pp.32-41."
+  badges: ["Magazine"]
+  links:
+    - type: "link"
+      label: "Link"
+      url: "https://shorturl.at/2WbIm"
+    - type: "pdf"
+      label: "PDF"
+      url: "https://arxiv.org/pdf/2509.10946"
+    - type: "code"
+      label: "Code"
+      url: "https://github.com/robertmora/embeddedML-autopilot-failures"
+    - type: "link"
+      label: "Publisher"
+      url: "https://ieeexplore.ieee.org/document/11220018"
+
+- id: "pub-034"
+  category: "journals"
+  year: 2025
+  month: 9
+  sort_key: 20250966
+  citation: "Behera, A.P., Daubaris, P., Bravo, I., Gallego, J., Morabito, R., Widmer, J. and Champati, J.P., 2025. Exploring the boundaries of on-device inference: When tiny falls short, go hierarchical."
+  venue: "IEEE Internet of Things Journal."
+  badges: []
+  links:
+    - type: "pdf"
+      label: "PDF"
+      url: "https://arxiv.org/pdf/2407.11061"
+    - type: "code"
+      label: "Code"
+      url: "https://github.com/JoseGaDel/Hierarchical-Inference"
+    - type: "link"
+      label: "Publisher"
+      url: "https://ieeexplore.ieee.org/document/11066245"
+
+- id: "pub-052"
+  category: "confs"
+  year: 2025
+  month: 7
+  sort_key: 20250748
+  citation: "Wanigarathna, Y.R., Morabito, R. and Tarkoma, S., 2025, July. Towards Sustainable Synchronization of Digital Twins in Next-Generation IoT Networks."
+  venue: "In 2025 IEEE 45th International Conference on Distributed Computing Systems Workshops (ICDCSW) (pp. 383-386). IEEE."
+  badges: []
+  links:
+    - type: "award"
+      label: "Best Student Paper Award"
+      url: "https://www.helsinki.fi/en/faculty-science/news/best-student-paper-award-international-conference-distributed-computing-systems"
+
+- id: "pub-053"
+  category: "confs"
+  year: 2025
+  month: 7
+  sort_key: 20250747
+  citation: "Jang, S. and Morabito, R., 2025, July. Edge-first language model inference: Models, metrics, and tradeoffs."
+  venue: "In 2025 IEEE 45th International Conference on Distributed Computing Systems Workshops (ICDCSW) (pp. 309-314). IEEE."
+  badges: []
+  links:
+    - type: "pdf"
+      label: "PDF"
+      url: "https://arxiv.org/pdf/2505.16508"
+
+- id: "pub-035"
+  category: "journals"
+  year: 2025
+  month: 6
+  sort_key: 20250665
+  citation: "Saleh, A., Morabito, R., Dustdar, S., Tarkoma, S., Pirttikangas, S. and Lovén, L., 2025. Towards message brokers for generative ai: Survey, challenges, and opportunities."
+  venue: "ACM Computing Surveys, 58(1), pp.1-37."
+  badges: []
+  links:
+    - type: "doi"
+      label: "DOI"
+      url: "https://doi.org/10.1145/3742891"
+
+- id: "pub-054"
+  category: "confs"
+  year: 2025
+  month: 5
+  sort_key: 20250546
+  citation: "Morabito, R., Pandey, B., Daubaris, P., Wanigarathna, Y.R. and Tarkoma, S., 2025, May. A Generative AI-Enhanced Digital Twin Framework for Heterogeneous Networks and Smart Environments."
+  venue: "In IEEE INFOCOM 2025-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS) (pp. 1-7). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-017"
+  category: "journals"
+  year: 2025
+  month: 0
+  sort_key: 20250083
+  citation: "Saleh, A., Morabito, R., Tarkoma, S., Lindgren, A., Pirttikangas, S. and Lovén, L., 2025. Agentic tinyml for intent-aware handover in 6g wireless networks."
+  venue: "IEEE wireless communications."
+  badges: ["Magazine"]
+  links: []
+
+- id: "pub-019"
+  category: "journals"
+  year: 2025
+  month: 0
+  sort_key: 20250081
+  citation: "Morabito, R. and Jang, S., 2025. Smaller, Smarter, Closer: The Edge of Collaborative Generative AI."
+  venue: "IEEE Internet Computing. doi: 10.1109/MIC.2025.3575493."
+  badges: ["Magazine"]
+  links:
+    - type: "doi"
+      label: "DOI"
+      url: "https://doi.org/10.1109/MIC.2025.3575493"
+
+- id: "pub-020"
+  category: "journals"
+  year: 2025
+  month: 0
+  sort_key: 20250080
+  citation: "G. Wu, S. Tarkoma and R. Morabito, \"Consolidating TinyML Lifecycle with Large Language Models: Reality, Illusion, or Opportunity?\" in"
+  venue: "IEEE Internet of Things Magazine, doi: 10.1109/MIOT.2025.3575927."
+  badges: ["Magazine"]
+  links:
+    - type: "doi"
+      label: "DOI"
+      url: "https://doi.org/10.1109/MIOT.2025.3575927"
+
+- id: "pub-021"
+  category: "journals"
+  year: 2025
+  month: 0
+  sort_key: 20250079
+  citation: "A. Saleh, P. K. Donta, R. Morabito, N. H. Motlagh, S. Tarkoma and L. Lovén, \"Follow-Me AI: Energy-Efficient User Interaction With Smart Environments,\" in"
+  venue: "IEEE Pervasive Computing, doi: 10.1109/MPRV.2025.3539421."
+  badges: ["Magazine"]
+  links:
+    - type: "doi"
+      label: "DOI"
+      url: "https://doi.org/10.1109/MPRV.2025.3539421"
+
+- id: "pub-033"
+  category: "journals"
+  year: 2025
+  month: 0
+  sort_key: 20250067
+  citation: "Chatzistefanidis, I., Nikaein, N., Leone, A., Maatouk, A., Tassiulas, L., Morabito, R., Pitsiorlas, I. and Kountouris, M., 2025. Agoran: An agentic open marketplace for 6g ran automation."
+  venue: "Computer Networks, p.111927."
+  badges: []
+  links: []
+
+- id: "legacy-62"
+  category: "patents"
+  year: 2025
+  month: 0
+  sort_key: 20250039
+  citation: "Araújo, J., Morabito, R., Cubero, P.C., Baldassari, E. and Hernandez, S., Telefonaktiebolaget LM Ericsson AB, 2025. “Controlling Concurrent Execution of Perception Algorithms.” U.S. Patent Application 18/714,851."
+  badges: []
+  links: []
+
+- id: "legacy-66"
+  category: "preprints"
+  year: 2025
+  month: 0
+  sort_key: 20250035
+  citation: "Morabito, R., Adorante, R., Mousannif, H. and Pau, D.P., 2025. “Expanding The Horizons of Generative Edge AI: Mission, Vision, and Insights From Industries.” Authorea Preprints."
+  badges: ["Authorea", "Preprint"]
+  links: []
+
+- id: "legacy-67"
+  category: "preprints"
+  year: 2025
+  month: 0
+  sort_key: 20250034
+  citation: "Behera, A.P., Champati, J.P., Morabito, R., Tarkoma, S. and Gross, J., 2025. “Towards Efficient Multi-LLM Inference: Characterization and Analysis of LLM Routing and Hierarchical Techniques.” arXiv preprint arXiv:2506.06579. (Submitted to IEEE Transactions on Artificial Intelligence)"
+  badges: ["arXiv", "Preprint"]
+  links: []
+
+- id: "pub-055"
+  category: "confs"
+  year: 2024
+  month: 12
+  sort_key: 20241245
+  citation: "Daubaris, P., Tarkoma, S. and Morabito, R., 2024. PhD school: Network-Enhanced On-Device AI: a Recipe for Interoperable and Cooperative AI Applications."
+  venue: "In International Conference on Embedded Wireless Systems and Networks (EWSN ’24)."
+  badges: []
+  links: []
+
+- id: "pub-014"
+  category: "books"
+  year: 2024
+  month: 0
+  sort_key: 20240086
+  citation: "Morabito, R. and Chiang, M., 2024. Exploring edge AI inference in heterogeneous environments: requirements, challenges, and solutions."
+  venue: "In IoT Edge Intelligence (pp. 37-66). Cham: Springer Nature Switzerland."
+  badges: []
+  links: []
+
+- id: "pub-036"
+  category: "journals"
+  year: 2024
+  month: 0
+  sort_key: 20240064
+  citation: "Hang, C.N., Yu, P.D., Morabito, R. and Tan, C.W., 2024. Large language models meet next-generation networking technologies: A review."
+  venue: "Future Internet, 16(10), p.365."
+  badges: []
+  links: []
+
+- id: "pub-037"
+  category: "journals"
+  year: 2024
+  month: 0
+  sort_key: 20240063
+  citation: "Wang, S., Morabito, R., Hosseinalipour, S., Chiang, M. and Brinton, C.G., 2024. Device sampling and resource optimization for federated learning in cooperative edge networks."
+  venue: "IEEE/ACM Transactions on Networking."
+  badges: []
+  links: []
+
+- id: "legacy-61"
+  category: "patents"
+  year: 2024
+  month: 0
+  sort_key: 20240040
+  citation: "Opsenica, M., Salmela, P., Morabito, R., Ramos, E., Kauppinen, T., and Komu, M., 2024. “Resource provision for mobile entities.” U.S. Patent 12,003,511."
+  badges: []
+  links: []
+
+- id: "legacy-68"
+  category: "preprints"
+  year: 2024
+  month: 0
+  sort_key: 20240033
+  citation: "Morabito, R., Pandey, B., Daubaris, P., Wanigarathna, Y.R. and Tarkoma, S., 2024. “Future-Proofing Mobile Networks: A Digital Twin Approach to Multi-Signal Management.” arXiv preprint arXiv:2407.15520."
+  badges: ["arXiv", "Preprint"]
+  links: []
+
+- id: "pub-057"
+  category: "confs"
+  year: 2023
+  month: 10
+  sort_key: 20231043
+  citation: "Behera, A.P., Morabito, R., Widmer, J. and Champati, J.P., 2023, October. Improved Decision Module Selection for Hierarchical Inference in Resource-Constrained Edge Devices."
+  venue: "In Proceedings of the 29th Annual International Conference on Mobile Computing and Networking (pp. 1-3)."
+  badges: []
+  links: []
+
+- id: "pub-013"
+  category: "books"
+  year: 2023
+  month: 0
+  sort_key: 20230087
+  citation: "Motlagh, N.H., Zaidan, M.A., Morabito, R., Nurmi, P. and Tarkoma, S., 2023. Towards Large-Scale IoT Deployments in Smart Cities: Requirements and Challenges."
+  venue: "In Learning Techniques for the Internet of Things (pp. 105-129). Cham: Springer Nature Switzerland."
+  badges: []
+  links: []
+
+- id: "pub-038"
+  category: "journals"
+  year: 2023
+  month: 0
+  sort_key: 20230062
+  citation: "Motlagh N. H., Zaidan M. A., Lovén L., Fung P. L., Hänninen T., Morabito R., Nurmi P., Tarkoma S., 2023. “Digital Twins for Smart Spaces - Beyond IoT Analytics”."
+  venue: "IEEE Internet of Things Journal."
+  badges: []
+  links: []
+
+- id: "pub-056"
+  category: "confs"
+  year: 2023
+  month: 0
+  sort_key: 20230044
+  citation: "Morabito R., Tatipamula M., Tarkoma S., and Chiang M., 2023. “Edge AI Inference in Heterogeneous Constrained Computing: Feasibility and Opportunities”."
+  venue: "In 2023 IEEE International Workshop on Computer-Aided Modeling Analysis and Design of Communication Links and Networks (IEEE CAMAD)."
+  badges: []
+  links: []
+
+- id: "legacy-60"
+  category: "patents"
+  year: 2023
+  month: 0
+  sort_key: 20230041
+  citation: "Jiménez, J., Doyu, H., and Morabito, R., Telefonaktiebolaget LM Ericsson AB, 2023. “Distributed computation orchestration for internet-of-things devices using CoAP and LWM2M protocols.” U.S. Patent 11,765,053."
+  badges: []
+  links: []
+
+- id: "legacy-69"
+  category: "preprints"
+  year: 2023
+  month: 0
+  sort_key: 20230032
+  citation: "Tarkoma, S., Morabito, R. and Sauvola, J., 2023. “AI-native Interconnect Framework for Integration of Large Language Model Technologies in 6G Systems.” arXiv preprint arXiv:2311.05842."
+  badges: ["arXiv", "Preprint"]
+  links: []
+
+- id: "legacy-70"
+  category: "preprints"
+  year: 2023
+  month: 0
+  sort_key: 20230031
+  citation: "Lovén, L., Morabito, R., Kumar, A., Pirttikangas, S., Riekki, J. and Tarkoma, S., 2023. “How can AI be distributed in the computing continuum? Introducing the neural pub/sub paradigm.” arXiv preprint arXiv:2309.02058."
+  badges: ["arXiv", "Preprint"]
+  links: []
+
+- id: "pub-058"
+  category: "confs"
+  year: 2021
+  month: 12
+  sort_key: 20211242
+  citation: "Nguyen H., Morabito R., Kim K.T., Chiang M., 2021, December. “On-the-fly Resource-Aware Model Aggregation for Federated Learning in Heterogeneous Edge”."
+  venue: "In 2021 IEEE Global Communications Conference: Mobile and Wireless Networks (IEEE GLOBECOM)"
+  badges: []
+  links: []
+
+- id: "pub-061"
+  category: "confs"
+  year: 2021
+  month: 8
+  sort_key: 20210839
+  citation: "Wang S., Mengyuan L., Hosseinalipour S., Morabito R., Chiang M., Brinton C., 2021, August. “Device Sampling for Heterogeneous Federated Learning: Theory, Algorithms, and Implementation”."
+  venue: "In 2021 IEEE Conference on Computer Communications (INFOCOM). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-059"
+  category: "confs"
+  year: 2021
+  month: 7
+  sort_key: 20210741
+  citation: "Morabito R., and Chiang M., 2021, July. “Discover, Provision, and Orchestration of Machine Learning Inference Services in Heterogeneous Edge: A Demonstration”."
+  venue: "In 2021 41st IEEE International Conference on Distributed Computing Systems (ICDCS 2021). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-060"
+  category: "confs"
+  year: 2021
+  month: 4
+  sort_key: 20210440
+  citation: "Doyu H., Morabito R., and Brachmann M., 2021, April. “A TinyMLaaS Ecosystem for Machine Learning in IoT: Overview and Research Challenges”."
+  venue: "In 2021 International Symposium on VLSI Design, Automation and Test (2021 VLSI-DAT) (pp. 1-5). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-022"
+  category: "journals"
+  year: 2020
+  month: 0
+  sort_key: 20200078
+  citation: "Morabito R. and Jiménez, J., 2020. IETF protocol suite for the Internet of Things: Overview and Recent Advancements."
+  venue: "IEEE Communications Standards Magazine, 4(2), pp.41-49."
+  badges: ["Magazine"]
+  links: []
+
+- id: "legacy-59"
+  category: "patents"
+  year: 2020
+  month: 0
+  sort_key: 20200042
+  citation: "Diaz, O.N., Beijar, N., Jiménez, J., Kauppinen, T., Kjällman, J., Komu, M., Jokela, P., Melén, J., Morabito, R., Ocak, M. and Robles, M.I., 2020. “Management of communication between M2M device and M2M server with finite state transitions created by the M2M device.” U.S. Patent 10,869,172."
+  badges: []
+  links: []
+
+- id: "pub-062"
+  category: "confs"
+  year: 2019
+  month: 8
+  sort_key: 20190838
+  citation: "Reijonen J., Opsenica M., Morabito R., Komu M., Elmusratiy M., 2019, August. “Regression Training using Model Parallelism in a Distributed Cloud”."
+  venue: "In 2019 IEEE 17th Intl Conf on Pervasive Intelligence and Computing (PiCom) (pp. 741-747). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-063"
+  category: "confs"
+  year: 2019
+  month: 8
+  sort_key: 20190837
+  citation: "Ramos E., and Morabito R., 2019, August. “Intelligence Stratum for IoT. Architecture Requirements and Functions”."
+  venue: "In 2019 IEEE 17th Intl Conf on Pervasive Intelligence and Computing (PiCom) (pp. 860-867). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-023"
+  category: "journals"
+  year: 2019
+  month: 0
+  sort_key: 20190077
+  citation: "Ramos E., Morabito R. and Kainulainen J.P., 2019. “Distributing Intelligence to the Edge and Beyond”."
+  venue: "IEEE Computational Intelligence Magazine, 14(4), pp.72-95."
+  badges: ["Magazine"]
+  links: []
+
+- id: "legacy-63"
+  category: "theses"
+  year: 2019
+  month: 0
+  sort_key: 20190038
+  citation: "Morabito, R., 2019. “Lightweight virtualization in edge computing for internet of things.” Doctoral Dissertation, Aalto University, 2019."
+  badges: ["PhD Thesis"]
+  links: []
+
+- id: "pub-064"
+  category: "confs"
+  year: 2018
+  month: 10
+  sort_key: 20181036
+  citation: "Laaroussi Z., Morabito R., and Taleb T., 2018, October. “Service Provisioning in Vehicular Networks through Edge and Cloud: An Empirical Analysis”."
+  venue: "In 2018 IEEE Conference on Standards for Communications and Networking (CSCN) (pp. 1-6). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-024"
+  category: "journals"
+  year: 2018
+  month: 0
+  sort_key: 20180076
+  citation: "Morabito R., Cozzolino V., Ding A.Y., Beijar N. and Ott J., 2018. “Consolidate IoT edge computing with lightweight virtualization”."
+  venue: "IEEE Network, 32(1), pp.102-111."
+  badges: ["Magazine"]
+  links: []
+
+- id: "pub-039"
+  category: "journals"
+  year: 2018
+  month: 0
+  sort_key: 20180061
+  citation: "Morabito R., Petrolo R., Loscri V. and Mitton N., 2018. “LEGIoT: A lightweight edge gateway for the Internet of Things”."
+  venue: "Future Generation Computer Systems, 81, pp.1-15."
+  badges: []
+  links: []
+
+- id: "pub-065"
+  category: "confs"
+  year: 2017
+  month: 10
+  sort_key: 20171035
+  citation: "Mäkinen A., Jiménez J. and Morabito R., 2017, October. “ELIoT: Design of an emulated IoT platform”."
+  venue: "In 2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC) (pp. 1-7). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-066"
+  category: "confs"
+  year: 2017
+  month: 8
+  sort_key: 20170834
+  citation: "Morabito R. and Beijar N., 2017, August. “A framework based on SDN and containers for dynamic service chains on IoT gateways”."
+  venue: "In Proceedings of the Workshop on Hot Topics in Container Networking and Networked Systems (pp. 42-47). ACM."
+  badges: []
+  links: []
+
+- id: "pub-067"
+  category: "confs"
+  year: 2017
+  month: 5
+  sort_key: 20170533
+  citation: "Morabito R., Petrolo R., Loscri V., Mitton N., Ruggeri G. and Molinaro A., 2017, May. “Lightweight virtualization as enabling technology for future smart cars”."
+  venue: "In 2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM) (pp. 1238-1245). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-068"
+  category: "confs"
+  year: 2017
+  month: 2
+  sort_key: 20170232
+  citation: "Morabito R., Petrolo R., Loscrì V., and Mitton N., 2017, February. “Demo: Design of a Virtualized Smart Car Platform”."
+  venue: "In Proceedings of the 2017 International Conference on Embedded Wireless Systems and Networks (EWSN ’17) (pp. 252-253). Junction Publishing."
+  badges: []
+  links: []
+
+- id: "pub-069"
+  category: "confs"
+  year: 2017
+  month: 1
+  sort_key: 20170131
+  citation: "Morabito R., 2017, January. “Inspecting the performance of low-power nodes during the execution of edge computing tasks”."
+  venue: "In 2017 14th IEEE Annual Consumer Communications & Networking Conference (CCNC) (pp. 148-153). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-040"
+  category: "journals"
+  year: 2017
+  month: 0
+  sort_key: 20170060
+  citation: "Mekonnen T., Komu M., Morabito R., Kauppinen T., Harjula E., Koskela T. and Ylianttila M., 2017. “Energy consumption analysis of edge orchestrated virtualized wireless multimedia sensor networks”."
+  venue: "IEEE Access, 6, pp.5090-5100."
+  badges: []
+  links: []
+
+- id: "pub-041"
+  category: "journals"
+  year: 2017
+  month: 0
+  sort_key: 20170059
+  citation: "Morabito R., Farris I., Iera A. and Taleb T., 2017. “Evaluating performance of containerized IoT services for clustered devices at the network edge”."
+  venue: "IEEE Internet of Things Journal, 4(4), pp.1019-1030."
+  badges: []
+  links: []
+
+- id: "pub-042"
+  category: "journals"
+  year: 2017
+  month: 0
+  sort_key: 20170058
+  citation: "Morabito R., 2017. “Virtualization on internet of things edge devices with container technologies: a performance evaluation”."
+  venue: "IEEE Access, 5, pp.8835-8850."
+  badges: []
+  links: []
+
+- id: "pub-043"
+  category: "journals"
+  year: 2017
+  month: 0
+  sort_key: 20170057
+  citation: "Petrolo R., Morabito R., Loscrì V. and Mitton N., 2017. “The design of the gateway for the cloud of things”."
+  venue: "Annals of Telecommunications, 72(1-2), pp.31-40."
+  badges: []
+  links: []
+
+- id: "pub-070"
+  category: "confs"
+  year: 2016
+  month: 11
+  sort_key: 20161130
+  citation: "Morabito R., Petrolo R., Loscrí V., and Mitton N., 2016, November. “Enabling a lightweight Edge Gateway-as-a-Service for the Internet of Things”."
+  venue: "In 2016 7th International Conference on the Network of the Future (NOF) (pp. 1-5). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-071"
+  category: "confs"
+  year: 2016
+  month: 6
+  sort_key: 20160629
+  citation: "Morabito R. and Beijar N., 2016, June. “Enabling data processing at the network edge through lightweight virtualization technologies”."
+  venue: "In 2016 IEEE International Conference on Sensing, Communication and Networking (SECON Workshops) (pp. 1-6). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-072"
+  category: "confs"
+  year: 2016
+  month: 4
+  sort_key: 20160428
+  citation: "Morabito R., 2016, April. “A performance evaluation of container technologies on Internet of Things devices”."
+  venue: "In 2016 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS) (pp. 999-1000). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-073"
+  category: "confs"
+  year: 2016
+  month: 4
+  sort_key: 20160427
+  citation: "Komu M., Morabito R., Kauppinen T., Kjällman J. and Yao Y., 2016, April. “Power consumption in remote gaming: An empirical evaluation”."
+  venue: "In 2016 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS) (pp. 736-741). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-074"
+  category: "confs"
+  year: 2015
+  month: 12
+  sort_key: 20151226
+  citation: "Morabito R., 2015, December. “Power consumption of virtualization technologies: an empirical investigation”."
+  venue: "In 2015 IEEE/ACM 8th International Conference on Utility and Cloud Computing (UCC) (pp. 522-527). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-075"
+  category: "confs"
+  year: 2015
+  month: 3
+  sort_key: 20150325
+  citation: "Morabito R., Kjällman J., and Komu M., 2015, March. “Hypervisors vs. lightweight virtualization: a performance comparison”."
+  venue: "In 2015 IEEE International Conference on Cloud Engineering (pp. 386-393). IEEE."
+  badges: []
+  links: []
+
+- id: "pub-076"
+  category: "confs"
+  year: 2014
+  month: 6
+  sort_key: 20140624
+  citation: "Araniti G., Cosmas J., Iera A., Molinaro A., Morabito R. and Orsino A., 2014, June. “OpenFlow over wireless networks: Performance analysis”."
+  venue: "In 2014 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (pp. 1-5). IEEE."
+  badges: []
+  links: []
+
+- id: "legacy-64"
+  category: "theses"
+  year: 2013
+  month: 0
+  sort_key: 20130037
+  citation: "Morabito, R., 2013. “OpenFlow Impact on Wireless Networks.” M.Sc. Thesis, Università Mediterranea of Reggio Calabria, 2013."
+  badges: ["Master Thesis"]
+  links: []
+
+- id: "legacy-65"
+  category: "theses"
+  year: 2010
+  month: 0
+  sort_key: 20100036
+  citation: "Morabito, R., 2010. “Small Scale Propagation Models for DVB-T Systems.” B.Sc. Thesis, Università Mediterranea of Reggio Calabria, 2010."
+  badges: ["Bachelor Thesis"]
+  links: []
